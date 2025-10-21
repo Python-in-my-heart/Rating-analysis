@@ -1,0 +1,62 @@
+# Файлы Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Виртуальные окружения
+venv/
+env/
+ENV/
+
+# Файлы IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Операционные системы
+.DS_Store
+Thumbs.db
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.temp
+
+# Тестовые данные
+test_*.csv
+temp_*.csv
+
+# Файлы покрытия тестов
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Файлы конфигурации (если используются)
+config.ini
+settings.ini
+
+# Файлы данных (опционально - если не хотите коммитить примеры данных)
+*.csv
+*.xlsx
+*.json
